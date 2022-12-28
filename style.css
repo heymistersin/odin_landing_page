@@ -2,7 +2,6 @@
 
 * {
     font-family: Roboto, sans-serif;
-    /* background-color: #1f2937; */
 }
 
 body {
@@ -16,11 +15,8 @@ body {
 .header {
 
     background-color: #1f2937;
-    /* padding: 0 300px 100px; */
-    /* max-width: 75%; */
     color: white;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -36,35 +32,25 @@ body {
 
 .headerlogo {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     display: flex;
     align-items: flex-end;
-}
-
-/* .header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    font-size: 24px;
     color: #f9faf8;
-    padding: 15px 0 50px;
-} */
+}
 
 button {
 
     display: flex;
     color: white;
     font-weight: bold;
-    background-color: #2882f6;
+    background-color: #3882f6;
     border-radius: 8px;
-    /* width: 100px; */
-    border: #2882f6;
+    border: #3882f6;
     padding: 5px 25px;
     width: 120px;
     height: 35px;
     align-items: center;
     justify-content: center;
-    /* margin: 10px; */
 }
 
 .links {
@@ -74,9 +60,10 @@ button {
 }
 
 a {
-    font-size: medium;
+    font-size: 18px;
     text-decoration: none;
     color: white;
+    color: #f9faf8;
 }
 
 /* section 1 */
@@ -89,7 +76,7 @@ a {
     width: 100%;
 }
 
-.bothbox {
+.onebox {
     display: flex;
     max-width: 63%;
     padding: 30px 0 60px;
@@ -115,23 +102,8 @@ a {
 .awesome {
     font-size: 48px;
     font-weight: bold;
-    /* flex-shrink: 1; */
     color: #f9faf8;
     line-height: 40px;
-
-}
-
-.awesometext {}
-
-/* .topbutt {
-    color: white;
-    font-weight: bold;
-    background-color: #2882f6;
-    border-radius: 8px;
-    width: 100px;
-    border: #2882f6;
-    padding: 5px 25px;
-    display: flex; */
 }
 
 .rightbox {
@@ -162,25 +134,21 @@ a {
 
 .boxtwo {
     flex-direction: column;
-    /* justify-content: space-evenly; */
     width: 63%;
-    /* padding: 60px 0; */
-    /* gap: 20px; */
 
 }
 
 .random {
     text-align: center;
     font-weight: bolder;
-    font-size: 28px;
+    font-size: 36px;
+    color: #1f2937;
     margin: 30px 0 10px;
-    /* margin-bottom: 30px; */
 }
 
 .boxes {
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* gap: 10px; */
     margin-bottom: 120px;
     flex-grow: 1;
 }
@@ -199,8 +167,7 @@ a {
     width: 10rem;
     height: 10rem;
     border-radius: 8px;
-    border: blue solid;
-    /* margin: 0 20px 0 ; */
+    border: #3882f6 solid;
 }
 
 .boxtext {
@@ -209,7 +176,6 @@ a {
     font-size: 1rem;
 }
 
-/* Section 3 */
 
 .three,
 .threebox {
@@ -218,7 +184,7 @@ a {
 }
 
 .three {
-    background-color: lightgrey;
+    background-color: #e5e7eb;
     justify-content: center;
     padding: 150px 0px;
     width: 100%;
@@ -235,9 +201,9 @@ a {
 }
 
 .quote {
-    font-size: 28px;
+    font-size: 36px;
     font-style: italic;
-
+    color: #1f2937;
     padding: 0 10px;
 }
 
@@ -266,7 +232,6 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: cornsilk;
     color: white;
 }
 
@@ -276,7 +241,7 @@ a {
 }
 
 .bluebox {
-    background-color: blue;
+    background-color: #3882f6;
     padding: 3rem 9rem;
     border-radius: 10px;
     width: 100%;
@@ -286,7 +251,6 @@ a {
 }
 
 .textbox {
-    /* padding: 80px 60px; */
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
